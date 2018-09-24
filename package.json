@@ -1,0 +1,18 @@
+{
+  "name": "coincrawlercsvcombineraddon",
+  "version": "1.0.0",
+  "description": "Joins CoinCrawler csv outputs to a single table",
+  "main": "run.js",
+  "keywords": [
+    "CoinCrawler",
+    "Dash",
+    "Masternode"
+  ],
+  "author": "Antti Kaikkonen",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "^3.0.0",
+    "express": "^4.16.3",
+    "request": "^2.88.0"
+  }
+}

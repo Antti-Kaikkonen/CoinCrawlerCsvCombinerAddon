@@ -1,0 +1,23 @@
+let config = {
+  columns: [
+    {
+      url: "http://localhost:3001/full_nodes.csv",
+      column: 15//0 based (16th column)
+    },
+    {
+      url: "http://localhost:3001/full_nodes.csv",
+      column: 2
+    },
+    {
+      url: "http://localhost:3002/full_nodes.csv",
+      column: 15
+    },
+    {
+      url: "http://localhost:3002/full_nodes.csv",
+      column: 2
+    }
+  ],
+  listen_port: 3006
+}
+
+module.exports = config;
